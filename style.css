@@ -3,9 +3,6 @@
     word-break: break-word;
 }
 
-body{
-    overflow-x: none;
-}
 header {
    
     background: #404EED;
@@ -53,10 +50,11 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;  
+    
     margin-top: 10px;
 }
 
-.primeira-escolha > div > div, .segunda-escolha > div > div, .terceira-escolha > div > div{
+/* .primeira-escolha > div > div, .segunda-escolha > div > div, .terceira-escolha > div > div{
     width: 100px;
     height: 100px;
     left: 265.26px;
@@ -68,11 +66,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .primeira-escolha > div > div > img, .segunda-escolha > div > div > img, .terceira-escolha > div > div > img{
     width: 70px;
-    height: 70px;   
+    height: 70px;
 }
 
 .container > p{
@@ -93,8 +91,8 @@ main {
     line-height: 21px;
     color: #232323;
     text-align: center;
-    margin-top: 5px;
 }
+
 .referencia{
     display: flex;
     flex-direction: column;
@@ -183,3 +181,25 @@ footer{
     
 }
 
+.opcao{
+    width: 100px;
+    height: 100px;
+    left: 265.26px;
+    top: 156.9px;
+    border-radius: 50px;
+    background: #F2F2F2;
+    border: 0.5px solid #C4C4C4;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selecionado {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #404EED;
+    border-radius: 50px;
+    
+}
+
+.ativo{
+    background-color:#404EED;
+}

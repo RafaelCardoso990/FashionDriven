@@ -28,18 +28,18 @@
 
                 <div class="primeira-escolha">
                     <div>   
-                        <div><img src="FashionDriven/tshirt.png" alt="T-shirt"></div>
-                        <p>T-shirt</p>
+                        <div class="opcao selecionado" onclick="escolherModelo(this)"><img src="FashionDriven/tshirt.png" alt="T-shirt"></div>
+                        <p class="tipo">T-shirt</p>
                     </div>
                     
                     <div>
-                        <div><img src="FashionDriven/Camiseta.png" alt="Camiseta"></div>
-                        <p>Camiseta</p>
+                        <div class="opcao" onclick="escolherModelo(this)"><img src="FashionDriven/Camiseta.png" alt="Camiseta"></div>
+                        <p class="tipo">Camiseta</p>
                     </div>
                     
-                    <div>
-                        <div><img src="FashionDriven/Mangalonga.png" alt="Mangalonga"></div>
-                        <p>Manga Longa</p>
+                    <div> 
+                        <div class="opcao" onclick="escolherModelo(this)"><img src="FashionDriven/Mangalonga.png" alt="Mangalonga"></div>
+                        <p class="tipo">Manga Longa</p>
                     </div>
                 </div>
 
@@ -50,18 +50,18 @@
 
                 <div class="segunda-escolha">
                     <div>   
-                        <div><img src="FashionDriven/GolaV.png" alt="T-shirt"></div>
-                        <p>Gola V</p>
+                        <div class="opcao" onclick="escolherGola(this)"><img src="FashionDriven/GolaV.png" alt="T-shirt"></div>
+                        <p class="tipo">Gola V</p>
                     </div>
                     
                     <div>
-                        <div><img src="FashionDriven/GolaRedonda.png" alt="Camiseta"></div>
-                        <p>Gola Redonda</p>
+                        <div class="opcao" onclick="escolherGola(this)"><img src="FashionDriven/GolaRedonda.png" alt="Camiseta"></div>
+                        <p class="tipo">Gola Redonda</p>
                     </div>
                     
                     <div>
-                        <div><img src="FashionDriven/GolaPolo.png" alt="Mangalonga"></div>
-                        <p>Gola Polo</p>
+                        <div class="opcao" onclick="escolherGola(this)"><img src="FashionDriven/GolaPolo.png" alt="Mangalonga"></div>
+                        <p class="tipo">Gola Polo</p>
                     </div>
                 </div>
 
@@ -72,18 +72,18 @@
 
                 <div class="terceira-escolha">
                     <div>   
-                        <div><img src="FashionDriven/Seda.png" alt="T-shirt"></div>
-                        <p>Seda</p>
+                        <div class="opcao" onclick="escolherTecido(this)"><img src="FashionDriven/Seda.png" alt="T-shirt"></div>
+                        <p class="tipo">Seda</p>
                     </div>
                     
-                    <div>
-                        <div><img src="FashionDriven/Algodão.png" alt="Camiseta"></div>
-                        <p>Algodão</p>
+                    <div> 
+                        <div class="opcao" onclick="escolherTecido(this)"><img src="FashionDriven/Algodão.png" alt="Camiseta"></div>
+                        <p class="tipo">Algodão</p>
                     </div>
                     
-                    <div>
-                        <div><img src="FashionDriven/Poliester.png" alt="Mangalonga"></div>
-                        <p>Poliester</p>
+                    <div >
+                        <div class="opcao" onclick="escolherTecido(this)"><img src="FashionDriven/Poliester.png" alt="Mangalonga"></div>
+                        <p class="tipo">Poliester</p>
                     </div>
                 </div>
 
@@ -94,10 +94,10 @@
 
                 <div class="referencia">
                 <div>
-                   <input type="text" placeholder="Insira o link">
+                   <input class="link" type="text" placeholder="Insira o link">
                 </div>
                 <div>   
-                   <button onclick="confirmarPedido()">Confirmar Pedido</button>
+                   <button class="botao" onclick="confirmarPedido()">Confirmar Pedido</button>
                 </div>
                 </div>
             </div>
@@ -178,6 +178,6 @@
 
         </div>
     </footer>
-
+    <script src="script-tela.2.js"></script>
 </body>
 </html>
