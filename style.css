@@ -219,3 +219,54 @@ footer{
 .tipo{
     display: none;
 }
+
+@media (max-width: 1060px){
+    .box-direito{
+        display: none;
+    }
+
+    .box-esquerdo{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input{
+        
+        width: 300px;
+        height: 40px;  
+        background: #F2F2F2;
+        border-radius: 10px;
+        border: none;
+        margin-top: 9px;
+    }
+
+    button{
+        width: 300px;
+    }
+
+    .opcao{
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+
+    .ultimos-pedidos > div > div > img{
+        width: 90px;
+        height: 120px;
+        padding: 16px 11px 40px 11px;
+    }
+
+    .container-ultimos{
+        margin-left: 90px;
+        padding-bottom: 32px;
+        overflow-x: scroll;
+        margin-right: 90px;
+    }
+}
